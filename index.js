@@ -1,4 +1,4 @@
-const key = config.KEY;
+const key = '28b0799543359e8e6ed8330d199b4ccc';
 
 
 const weatherForm = document.querySelector('.weather-form');
