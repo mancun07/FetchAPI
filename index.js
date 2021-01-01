@@ -1,4 +1,4 @@
-const key = '28b0799543359e8e6ed8330d199b4ccc';
+const key = config.KEY;
 
 
 const weatherForm = document.querySelector('.weather-form');
@@ -87,7 +87,6 @@ const showError = () => {
             error.classList.remove('error-styling');
         }, 3000)
 }
-
 
 
 
