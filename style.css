@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    margin-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.mg-top {
+    margin-top: 100px;
+}
+
+.song-form, .weather-form {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top:100px;
+}
+
+.list {
+    max-width: 500px;
+    margin: auto;
+    background: tomato;
+    padding:20px!important;
+}
+
+.song-item {
+    color: #fff;
+    border-bottom: 1px dashed #fff;
+}
+
+.nosong {
+    max-width: 500px;
+    margin: auto;
+    color: #fff;
+    padding: 20px;
+
+}
+
+
+.weather-wrapper {
+    background: steelblue;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    color:#fff;
+    padding: 20px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.weather-unit-wrapper {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.weather-unit {
+    padding: 10px;
+}
+
+.error-styling {
+    background: tomato;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
